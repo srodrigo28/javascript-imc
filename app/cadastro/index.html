@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>My New Project!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+    <h1>Cadastrar</h1>
+    
+    <div class="label-float">
+      <input type="text" id="nome" placeholder="">
+      <label for="nome" id="labelNome">Nome</label>
+    </div>
+      
+    <div class="label-float">
+      <input type="text"   id="usuario" placeholder="">
+      <label for="usuario" id="labelUsuario">Usuario</label>
+    </div>
+      
+    <div class="label-float">
+      <input type="password" id="senha" class="senha" placeholder="">
+      <i class="fa fa-eye"   id="verSenha" aria-hidden="true"></i>
+      <label for="senha"     id="labelSenha">Senha</label>
+    </div>
+    
+    <div class="label-float">
+      <input type="password"    id="confirmSenha" class="senha" placeholder="">
+      <i class="fa fa-eye"      id="verConfirmSenha" aria-hidden="true"></i>
+      <label for="labelConfirmSenha" id="labelConfirmSenha">Confirmar Senha</label>
+    </div>
+      
+    <div class="justify-center">
+      <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+      
+    </div>
+  </div>
+  <script src="scripts/cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+* { margin: 0; padding: 0; }
+body{
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/395/307/780/dunes-4k-mac-background-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20vh;
+}
+.card{
+  background-color: #ffffff10;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px;
+  width: 17%;
+}
+h1{ 
+  text-align: center; 
+  margin-bottom: 20px;
+}
+.label-float input{ 
+  width: 100%;
+  padding: 5px 5px; 
+  display: inline-block; 
+  border: 0; 
+  border-bottom: 1px solid #272262;
+  background-color: transparent; 
+  outline: none; 
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 20px;
+  transition: all .3s ease-out;
+}
+.label-float{
+  position: relative; 
+  padding-top: 13px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.label-float input:focus{
+  border-bottom: 2px; 
+  solid: #4038a0;
+}
+.label-float label{
+  pointer-event: none;
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  margin-top: 13px; 
+  transition: all .3s ease-out;
+}
+.label-float input:focus + label
+{
+  font-size: 14px;
+  margin-top: 0;
+}
+button{
+  background-color: transparent;
+  width: 100%;
+  border-color: #272262;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+button:hover{
+  background-color: #272262;
+  color: #fff;
+}
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+hr{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+  color: white;
+}
+p{
+  color: black;
+  font-size: 13pt;
+  text-align: center;
+  font-weight: bold;
+}
+a{
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+  transition: all .4s ease-out;
+}
+a:hover{
+  color: #272262;
+}
+.fa-eye{
+  position: absolute;
+  top: 27px;
+  right: 10px;
+  cursor: pointer;
+  color: #272262;
+}
